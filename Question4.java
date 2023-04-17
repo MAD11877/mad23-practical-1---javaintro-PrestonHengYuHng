@@ -18,7 +18,6 @@ public class Question4
      */
      
    Scanner in = new Scanner(System.in);
-    System.out.print("Enter int: ");
     int i = in.nextInt();  // Read user input
 
     while (i > 0) {
