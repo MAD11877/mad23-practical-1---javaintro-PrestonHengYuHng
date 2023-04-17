@@ -30,13 +30,11 @@ public class Question5
     Scanner scanner = new Scanner(System.in);
         
         // prompt the user for the number of integers to be entered
-        System.out.print("> ");
         int n = scanner.nextInt();
         
         // ask for the n integers
         int[] numbers = new int[n];
         for (int i = 0; i < n; i++) {
-            System.out.print("> ");
             numbers[i] = scanner.nextInt();
         }
         
